@@ -1,0 +1,10 @@
+/.git
+
+# Build outputs
+/tutorial-site/node_modules/
+/tutorial-site/dist/
+/tutorial-site/*.tsbuildinfo
+
+# Interview-only docs should stay local
+/HW_Doc/WLC_Interview_Cheat_Sheet.md
+/tutorial-site/interview-cheatsheet.html

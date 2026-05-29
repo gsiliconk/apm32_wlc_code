@@ -1,0 +1,578 @@
+Dependencies for Project 'wlc_code', Target 'wlc_code': (DO NOT MODIFY !)
+CompilerVersion: 6240000::V6.24::ARMCLANG
+F (..\Drivers\Device\Geehy\APM32F10x\Source\arm\startup_apm32f10x_hd.s)(0x658150DA)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 543" -Wa,armasm,--pd,"APM32F10X_MD SETA 1"-o ./objects/startup_apm32f10x_hd.o)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_adc.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_adc.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_adc.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_bakpr.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_bakpr.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_bakpr.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_can.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_can.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_can.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_crc.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_crc.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_crc.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_dac.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_dac.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_dac.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_dbgmcu.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_dbgmcu.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_dbgmcu.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_dma.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_dma.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_dma.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_dmc.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_dmc.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_dmc.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_eint.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_eint.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_eint.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_fmc.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_fmc.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_fmc.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_gpio.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_gpio.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_gpio.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_i2c.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_i2c.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_i2c.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_iwdt.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_iwdt.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_iwdt.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_misc.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_misc.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_misc.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_pmu.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_pmu.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_pmu.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_qspi.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_qspi.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_qspi.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_rcm.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_rcm.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_rtc.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_rtc.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rtc.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_sci2c.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_sci2c.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_sci2c.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_sdio.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_sdio.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_sdio.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_smc.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_smc.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_smc.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_spi.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_spi.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_spi.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_tmr.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_tmr.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_tmr.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_usart.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_usart.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_usart.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+F (..\Drivers\APM32F10x_StdPeriphDriver\src\apm32f10x_wwdt.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_wwdt.o -MMD)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_wwdt.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+F (..\Drivers\Device\Geehy\APM32F10x\Source\system_apm32f10x.c)(0x658150DA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/system_apm32f10x.o -MMD)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+F (..\Core\Src\main.c)(0x6A043E93)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/main.o -MMD)
+I (..\Core\Inc\main.h)(0x6A043E93)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Core\Inc\freertos_task.h)(0x6A18FB1E)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5FD91474)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x69F2F798)
+I (..\FreeRTOS\include\projdefs.h)(0x5FD91474)
+I (..\FreeRTOS\include\portable.h)(0x5FD91474)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5FD91474)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x5FD91474)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5FD91474)
+I (..\FreeRTOS\include\task.h)(0x5FD91474)
+I (..\FreeRTOS\include\list.h)(0x5FD91474)
+I (..\Bsp\inc\bsp_uart.h)(0x69F34832)
+I (..\Bsp\inc\bsp_platform.h)(0x6A01805E)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_gpio.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_tmr.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_eint.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_misc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_usart.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_dma.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_adc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_i2c.h)(0x658150DA)
+I (..\Components\ringbuffer\ring_buffer.h)(0x69F33106)
+I (..\Bsp\inc\bsp_timer.h)(0x6A0BF577)
+I (..\Bsp\inc\bsp_irq.h)(0x6A040333)
+I (..\Bsp\inc\bsp_pwm.h)(0x6A0406B7)
+I (..\Bsp\inc\bsp_adc.h)(0x6A0408E5)
+I (..\Bsp\inc\bsp_qc.h)(0x6A040750)
+I (..\User\WLC_driver\inc\wlc_lib.h)(0x6A0EA8D4)
+I (..\Lib\Tomato_wlc.h)(0x6A18FB29)
+I (..\User\WLC_server\wlc_power_bridge\inc\wlc_power_bridge.h)(0x6A0C61D7)
+I (..\User\common\type\wlc_types.h)(0x6A119804)
+I (..\User\common\type\wlc_platform_types.h)(0x6A0DACE8)
+I (..\User\WLC_driver\inc\wlc_lib_interal_functions.h)(0x6A0BD397)
+I (..\User\WLC_app\inc\Qi_Power_Delivery.h)(0x6A0F0581)
+I (..\User\WLC_server\wlc_timer\inc\wlc_timer.h)(0x6A0C62C6)
+I (..\User\WLC_app\inc\wlc_app.h)(0x6A18FA1D)
+I (..\User\WLC_server\wlc_communications_physical\inc\wlc_physical.h)(0x6A0C62B2)
+F (..\Core\Src\apm32f10x_int.c)(0x6A040574)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/apm32f10x_int.o -MMD)
+I (..\Core\Inc\apm32f10x_int.h)(0x6A040574)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+F (..\Core\Src\freertos_task.c)(0x6A190F01)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/freertos_task.o -MMD)
+I (..\Core\Inc\freertos_task.h)(0x6A18FB1E)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5FD91474)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x69F2F798)
+I (..\FreeRTOS\include\projdefs.h)(0x5FD91474)
+I (..\FreeRTOS\include\portable.h)(0x5FD91474)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5FD91474)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x5FD91474)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5FD91474)
+I (..\FreeRTOS\include\task.h)(0x5FD91474)
+I (..\FreeRTOS\include\list.h)(0x5FD91474)
+I (..\Bsp\inc\bsp_uart.h)(0x69F34832)
+I (..\Bsp\inc\bsp_platform.h)(0x6A01805E)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_gpio.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_tmr.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_eint.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_misc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_usart.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_dma.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_adc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_i2c.h)(0x658150DA)
+I (..\Components\ringbuffer\ring_buffer.h)(0x69F33106)
+I (..\Bsp\inc\bsp_timer.h)(0x6A0BF577)
+I (..\Bsp\inc\bsp_irq.h)(0x6A040333)
+I (..\Bsp\inc\bsp_pwm.h)(0x6A0406B7)
+I (..\Bsp\inc\bsp_adc.h)(0x6A0408E5)
+I (..\Bsp\inc\bsp_qc.h)(0x6A040750)
+I (..\User\WLC_driver\inc\wlc_lib.h)(0x6A0EA8D4)
+I (..\Lib\Tomato_wlc.h)(0x6A18FB29)
+I (..\User\WLC_server\wlc_power_bridge\inc\wlc_power_bridge.h)(0x6A0C61D7)
+I (..\User\common\type\wlc_types.h)(0x6A119804)
+I (..\User\common\type\wlc_platform_types.h)(0x6A0DACE8)
+I (..\User\WLC_driver\inc\wlc_lib_interal_functions.h)(0x6A0BD397)
+I (..\User\WLC_app\inc\Qi_Power_Delivery.h)(0x6A0F0581)
+I (..\User\WLC_server\wlc_timer\inc\wlc_timer.h)(0x6A0C62C6)
+I (..\User\WLC_app\inc\wlc_app.h)(0x6A18FA1D)
+I (..\User\WLC_server\wlc_communications_physical\inc\wlc_physical.h)(0x6A0C62B2)
+F (..\Bsp\inc\bsp_platform.h)(0x6A01805E)()
+F (..\Bsp\src\bsp_uart.c)(0x69F34832)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/bsp_uart.o -MMD)
+I (..\Bsp\inc\bsp_uart.h)(0x69F34832)
+I (..\Bsp\inc\bsp_platform.h)(0x6A01805E)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_gpio.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_tmr.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_eint.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_misc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_usart.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_dma.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_adc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_i2c.h)(0x658150DA)
+I (..\Components\ringbuffer\ring_buffer.h)(0x69F33106)
+F (..\Bsp\src\bsp_pwm.c)(0x6A1927C2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/bsp_pwm.o -MMD)
+I (..\Bsp\inc\bsp_pwm.h)(0x6A0406B7)
+I (..\Bsp\inc\bsp_platform.h)(0x6A01805E)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_gpio.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_tmr.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_eint.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_misc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_usart.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_dma.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_adc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_i2c.h)(0x658150DA)
+F (..\Bsp\src\bsp_adc.c)(0x6A04083A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/bsp_adc.o -MMD)
+I (..\Bsp\inc\bsp_adc.h)(0x6A0408E5)
+I (..\Bsp\inc\bsp_platform.h)(0x6A01805E)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_gpio.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_tmr.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_eint.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_misc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_usart.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_dma.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_adc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_i2c.h)(0x658150DA)
+F (..\Bsp\src\bsp_eeprom.c)(0x6A04087B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/bsp_eeprom.o -MMD)
+I (..\Bsp\inc\bsp_eeprom.h)(0x6A04087B)
+I (..\Bsp\inc\bsp_platform.h)(0x6A01805E)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_gpio.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_tmr.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_eint.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_misc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_usart.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_dma.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_adc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_i2c.h)(0x658150DA)
+F (..\Bsp\src\bsp_qc.c)(0x6A0D9D3A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/bsp_qc.o -MMD)
+I (..\Bsp\inc\bsp_qc.h)(0x6A040750)
+I (..\Bsp\inc\bsp_platform.h)(0x6A01805E)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_gpio.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_tmr.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_eint.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_misc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_usart.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_dma.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_adc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_i2c.h)(0x658150DA)
+F (..\Bsp\src\bsp_irq.c)(0x6A192690)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/bsp_irq.o -MMD)
+I (..\Bsp\inc\bsp_irq.h)(0x6A040333)
+I (..\Bsp\inc\bsp_platform.h)(0x6A01805E)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_gpio.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_tmr.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_eint.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_misc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_usart.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_dma.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_adc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_i2c.h)(0x658150DA)
+F (..\Bsp\src\bsp_timer.c)(0x6A0BF577)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/bsp_timer.o -MMD)
+I (..\Bsp\inc\bsp_timer.h)(0x6A0BF577)
+I (..\Bsp\inc\bsp_platform.h)(0x6A01805E)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_gpio.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_tmr.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_eint.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_misc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_usart.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_dma.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_adc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_i2c.h)(0x658150DA)
+F (..\FreeRTOS\croutine.c)(0x5FD91474)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/croutine.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5FD91474)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x69F2F798)
+I (..\FreeRTOS\include\projdefs.h)(0x5FD91474)
+I (..\FreeRTOS\include\portable.h)(0x5FD91474)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5FD91474)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x5FD91474)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5FD91474)
+I (..\FreeRTOS\include\task.h)(0x5FD91474)
+I (..\FreeRTOS\include\list.h)(0x5FD91474)
+I (..\FreeRTOS\include\croutine.h)(0x5FD91474)
+F (..\FreeRTOS\event_groups.c)(0x5FD91474)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/event_groups.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5FD91474)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x69F2F798)
+I (..\FreeRTOS\include\projdefs.h)(0x5FD91474)
+I (..\FreeRTOS\include\portable.h)(0x5FD91474)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5FD91474)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x5FD91474)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5FD91474)
+I (..\FreeRTOS\include\task.h)(0x5FD91474)
+I (..\FreeRTOS\include\list.h)(0x5FD91474)
+I (..\FreeRTOS\include\timers.h)(0x5FD91474)
+I (..\FreeRTOS\include\event_groups.h)(0x5FD91474)
+F (..\FreeRTOS\list.c)(0x5FD91474)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/list.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5FD91474)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x69F2F798)
+I (..\FreeRTOS\include\projdefs.h)(0x5FD91474)
+I (..\FreeRTOS\include\portable.h)(0x5FD91474)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5FD91474)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x5FD91474)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5FD91474)
+I (..\FreeRTOS\include\list.h)(0x5FD91474)
+F (..\FreeRTOS\queue.c)(0x5FD91474)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/queue.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5FD91474)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x69F2F798)
+I (..\FreeRTOS\include\projdefs.h)(0x5FD91474)
+I (..\FreeRTOS\include\portable.h)(0x5FD91474)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5FD91474)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x5FD91474)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5FD91474)
+I (..\FreeRTOS\include\task.h)(0x5FD91474)
+I (..\FreeRTOS\include\list.h)(0x5FD91474)
+I (..\FreeRTOS\include\queue.h)(0x5FD91474)
+F (..\FreeRTOS\stream_buffer.c)(0x5FD91474)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/stream_buffer.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5FD91474)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x69F2F798)
+I (..\FreeRTOS\include\projdefs.h)(0x5FD91474)
+I (..\FreeRTOS\include\portable.h)(0x5FD91474)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5FD91474)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x5FD91474)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5FD91474)
+I (..\FreeRTOS\include\task.h)(0x5FD91474)
+I (..\FreeRTOS\include\list.h)(0x5FD91474)
+I (..\FreeRTOS\include\stream_buffer.h)(0x5FD91474)
+F (..\FreeRTOS\tasks.c)(0x5FD91474)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/tasks.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5FD91474)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x69F2F798)
+I (..\FreeRTOS\include\projdefs.h)(0x5FD91474)
+I (..\FreeRTOS\include\portable.h)(0x5FD91474)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5FD91474)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x5FD91474)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5FD91474)
+I (..\FreeRTOS\include\task.h)(0x5FD91474)
+I (..\FreeRTOS\include\list.h)(0x5FD91474)
+I (..\FreeRTOS\include\timers.h)(0x5FD91474)
+I (..\FreeRTOS\include\stack_macros.h)(0x5FD91474)
+F (..\FreeRTOS\timers.c)(0x5FD91474)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/timers.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5FD91474)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x69F2F798)
+I (..\FreeRTOS\include\projdefs.h)(0x5FD91474)
+I (..\FreeRTOS\include\portable.h)(0x5FD91474)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5FD91474)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x5FD91474)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5FD91474)
+I (..\FreeRTOS\include\task.h)(0x5FD91474)
+I (..\FreeRTOS\include\list.h)(0x5FD91474)
+I (..\FreeRTOS\include\queue.h)(0x5FD91474)
+I (..\FreeRTOS\include\timers.h)(0x5FD91474)
+F (..\FreeRTOS\portable\MemMang\heap_4.c)(0x5FD91474)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/heap_4.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5FD91474)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x69F2F798)
+I (..\FreeRTOS\include\projdefs.h)(0x5FD91474)
+I (..\FreeRTOS\include\portable.h)(0x5FD91474)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5FD91474)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x5FD91474)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5FD91474)
+I (..\FreeRTOS\include\task.h)(0x5FD91474)
+I (..\FreeRTOS\include\list.h)(0x5FD91474)
+F (..\FreeRTOS\portable\GCC\ARM_CM3\port.c)(0x5FD91474)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/port.o -MMD)
+I (..\FreeRTOS\include\FreeRTOS.h)(0x5FD91474)
+I (..\FreeRTOS\FreeRTOSConfig.h)(0x69F2F798)
+I (..\FreeRTOS\include\projdefs.h)(0x5FD91474)
+I (..\FreeRTOS\include\portable.h)(0x5FD91474)
+I (..\FreeRTOS\include\deprecated_definitions.h)(0x5FD91474)
+I (..\FreeRTOS\portable\GCC\ARM_CM3\portmacro.h)(0x5FD91474)
+I (..\FreeRTOS\include\mpu_wrappers.h)(0x5FD91474)
+I (..\FreeRTOS\include\task.h)(0x5FD91474)
+I (..\FreeRTOS\include\list.h)(0x5FD91474)
+F (..\FreeRTOS\FreeRTOSConfig.h)(0x69F2F798)()
+F (..\User\common\type\wlc_platform_types.h)(0x6A0DACE8)()
+F (..\User\common\type\wlc_types.h)(0x6A119804)()
+F (..\User\WLC_driver\src\wlc_lib.c)(0x6A1902F1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/wlc_lib.o -MMD)
+I (..\User\WLC_driver\inc\wlc_lib.h)(0x6A0EA8D4)
+I (..\User\WLC_server\wlc_timer\inc\wlc_timer.h)(0x6A0C62C6)
+I (..\User\WLC_driver\inc\wlc_lib_interal_functions.h)(0x6A0BD397)
+I (..\User\WLC_server\wlc_communications_physical\inc\wlc_physical.h)(0x6A0C62B2)
+I (..\User\common\type\wlc_platform_types.h)(0x6A0DACE8)
+I (..\User\WLC_server\wlc_power_bridge\inc\wlc_power_bridge.h)(0x6A0C61D7)
+I (..\User\WLC_app\inc\wlc_app.h)(0x6A18FA1D)
+I (..\User\common\type\wlc_types.h)(0x6A119804)
+F (..\User\WLC_driver\inc\wlc_lib_interal_functions.h)(0x6A0BD397)()
+F (..\User\WLC_server\wlc_communications_physical\src\wlc_physical.c)(0x6A192849)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/wlc_physical.o -MMD)
+I (..\User\WLC_server\wlc_communications_physical\inc\wlc_physical.h)(0x6A0C62B2)
+I (..\User\common\type\wlc_platform_types.h)(0x6A0DACE8)
+I (..\User\WLC_driver\inc\wlc_lib_interal_functions.h)(0x6A0BD397)
+I (..\User\WLC_driver\inc\wlc_lib.h)(0x6A0EA8D4)
+I (..\User\common\type\wlc_types.h)(0x6A119804)
+I (..\User\WLC_app\inc\wlc_app.h)(0x6A18FA1D)
+F (..\User\WLC_server\wlc_power_bridge\src\wlc_power_bridge.c)(0x6A0C61D7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/wlc_power_bridge.o -MMD)
+I (..\User\WLC_server\wlc_power_bridge\inc\wlc_power_bridge.h)(0x6A0C61D7)
+I (..\User\WLC_driver\inc\wlc_lib_interal_functions.h)(0x6A0BD397)
+I (..\User\WLC_driver\inc\wlc_lib.h)(0x6A0EA8D4)
+F (..\User\WLC_server\wlc_timer\src\wlc_timer.c)(0x6A084128)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/wlc_timer.o -MMD)
+I (..\User\WLC_server\wlc_timer\inc\wlc_timer.h)(0x6A0C62C6)
+I (..\User\WLC_driver\inc\wlc_lib_interal_functions.h)(0x6A0BD397)
+I (..\User\WLC_driver\inc\wlc_lib.h)(0x6A0EA8D4)
+F (..\User\WLC_app\src\Qi_Response.c)(0x6A0EA17F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/qi_response.o -MMD)
+I (..\User\WLC_app\inc\Qi_Response.h)(0x6A0DAE3D)
+I (..\User\common\type\wlc_types.h)(0x6A119804)
+I (..\User\common\type\wlc_platform_types.h)(0x6A0DACE8)
+I (..\User\WLC_driver\inc\wlc_lib_interal_functions.h)(0x6A0BD397)
+I (..\User\WLC_driver\inc\wlc_lib.h)(0x6A0EA8D4)
+I (..\User\WLC_server\wlc_timer\inc\wlc_timer.h)(0x6A0C62C6)
+I (..\Lib\Tomato_wlc.h)(0x6A18FB29)
+I (..\Bsp\inc\bsp_pwm.h)(0x6A0406B7)
+I (..\Bsp\inc\bsp_platform.h)(0x6A01805E)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_gpio.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_tmr.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_eint.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_misc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_usart.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_dma.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_adc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_i2c.h)(0x658150DA)
+I (..\User\WLC_server\wlc_power_bridge\inc\wlc_power_bridge.h)(0x6A0C61D7)
+I (..\User\WLC_app\inc\Qi_Power_Delivery.h)(0x6A0F0581)
+I (..\User\WLC_app\inc\wlc_app.h)(0x6A18FA1D)
+I (..\User\WLC_server\wlc_communications_physical\inc\wlc_physical.h)(0x6A0C62B2)
+F (..\User\WLC_app\src\Qi_Ping.c)(0x6A190FC0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/qi_ping.o -MMD)
+I (..\User\WLC_app\inc\Qi_Ping.h)(0x6A104356)
+I (..\User\common\type\wlc_types.h)(0x6A119804)
+I (..\User\common\type\wlc_platform_types.h)(0x6A0DACE8)
+I (..\User\WLC_driver\inc\wlc_lib_interal_functions.h)(0x6A0BD397)
+I (..\User\WLC_driver\inc\wlc_lib.h)(0x6A0EA8D4)
+I (..\User\WLC_app\inc\Qi_Power_Delivery.h)(0x6A0F0581)
+I (..\User\WLC_server\wlc_timer\inc\wlc_timer.h)(0x6A0C62C6)
+I (..\User\WLC_server\wlc_communications_physical\inc\wlc_physical.h)(0x6A0C62B2)
+F (..\User\WLC_app\src\Qi_Power_Delivery.c)(0x6A0F050F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/qi_power_delivery.o -MMD)
+I (..\User\WLC_app\inc\Qi_Power_Delivery.h)(0x6A0F0581)
+I (..\User\common\type\wlc_types.h)(0x6A119804)
+I (..\User\common\type\wlc_platform_types.h)(0x6A0DACE8)
+I (..\User\WLC_driver\inc\wlc_lib_interal_functions.h)(0x6A0BD397)
+I (..\User\WLC_driver\inc\wlc_lib.h)(0x6A0EA8D4)
+I (..\User\WLC_server\wlc_power_bridge\inc\wlc_power_bridge.h)(0x6A0C61D7)
+I (..\User\WLC_app\inc\wlc_app.h)(0x6A18FA1D)
+F (..\User\WLC_app\src\wlc_app.c)(0x6A1927E2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/wlc_app.o -MMD)
+I (..\User\WLC_app\inc\wlc_app.h)(0x6A18FA1D)
+I (..\User\common\type\wlc_types.h)(0x6A119804)
+I (..\User\common\type\wlc_platform_types.h)(0x6A0DACE8)
+I (..\User\WLC_driver\inc\wlc_lib_interal_functions.h)(0x6A0BD397)
+I (..\User\WLC_driver\inc\wlc_lib.h)(0x6A0EA8D4)
+I (..\User\WLC_app\inc\Qi_Ping.h)(0x6A104356)
+I (..\User\WLC_app\inc\Qi_IdConfig.h)(0x6A11A455)
+I (..\User\WLC_app\inc\Qi_Power_Delivery.h)(0x6A0F0581)
+I (..\User\WLC_app\inc\Qi_Power_Transfer.h)(0x6A17D8AA)
+I (..\User\WLC_app\inc\Qi_Response.h)(0x6A0DAE3D)
+I (..\User\WLC_server\wlc_timer\inc\wlc_timer.h)(0x6A0C62C6)
+I (..\User\WLC_server\wlc_communications_physical\inc\wlc_physical.h)(0x6A0C62B2)
+I (..\User\WLC_app\inc\Qi_Negotiation.h)(0x6A15957F)
+F (..\User\WLC_app\src\Qi_IdConfig.c)(0x6A183815)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/qi_idconfig.o -MMD)
+I (..\User\WLC_app\inc\Qi_IdConfig.h)(0x6A11A455)
+I (..\User\common\type\wlc_types.h)(0x6A119804)
+I (..\User\common\type\wlc_platform_types.h)(0x6A0DACE8)
+I (..\User\WLC_driver\inc\wlc_lib_interal_functions.h)(0x6A0BD397)
+I (..\User\WLC_driver\inc\wlc_lib.h)(0x6A0EA8D4)
+I (..\User\WLC_app\inc\Qi_Response.h)(0x6A0DAE3D)
+I (..\User\WLC_server\wlc_timer\inc\wlc_timer.h)(0x6A0C62C6)
+I (..\User\WLC_app\inc\Qi_Negotiation.h)(0x6A15957F)
+I (..\User\WLC_app\inc\wlc_app.h)(0x6A18FA1D)
+F (..\User\WLC_app\src\Qi_Negotiation.c)(0x6A183808)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/qi_negotiation.o -MMD)
+I (..\User\WLC_app\inc\Qi_Negotiation.h)(0x6A15957F)
+I (..\User\common\type\wlc_types.h)(0x6A119804)
+I (..\User\common\type\wlc_platform_types.h)(0x6A0DACE8)
+I (..\User\WLC_driver\inc\wlc_lib_interal_functions.h)(0x6A0BD397)
+I (..\User\WLC_driver\inc\wlc_lib.h)(0x6A0EA8D4)
+I (..\User\WLC_app\inc\wlc_app.h)(0x6A18FA1D)
+I (..\User\WLC_app\inc\Qi_Response.h)(0x6A0DAE3D)
+I (..\User\WLC_app\inc\Qi_Power_Delivery.h)(0x6A0F0581)
+I (..\User\WLC_app\inc\Qi_Power_Transfer.h)(0x6A17D8AA)
+I (..\User\WLC_server\wlc_timer\inc\wlc_timer.h)(0x6A0C62C6)
+I (..\User\WLC_server\wlc_communications_physical\inc\wlc_physical.h)(0x6A0C62B2)
+F (..\User\WLC_app\src\Qi_Power_Transfer.c)(0x6A182E66)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/qi_power_transfer.o -MMD)
+I (..\User\WLC_app\inc\Qi_Power_Transfer.h)(0x6A17D8AA)
+I (..\User\WLC_app\inc\wlc_app.h)(0x6A18FA1D)
+I (..\User\common\type\wlc_types.h)(0x6A119804)
+I (..\User\common\type\wlc_platform_types.h)(0x6A0DACE8)
+I (..\User\WLC_driver\inc\wlc_lib_interal_functions.h)(0x6A0BD397)
+I (..\User\WLC_driver\inc\wlc_lib.h)(0x6A0EA8D4)
+I (..\User\WLC_app\inc\Qi_Response.h)(0x6A0DAE3D)
+I (..\User\WLC_app\inc\Qi_Power_Delivery.h)(0x6A0F0581)
+I (..\User\WLC_server\wlc_timer\inc\wlc_timer.h)(0x6A0C62C6)
+I (..\Lib\Tomato_wlc.h)(0x6A18FB29)
+I (..\Bsp\inc\bsp_pwm.h)(0x6A0406B7)
+I (..\Bsp\inc\bsp_platform.h)(0x6A01805E)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\apm32f10x.h)(0x658150DA)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x658150DA)
+I (..\Drivers\Device\Geehy\APM32F10x\Include\system_apm32f10x.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_rcm.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_gpio.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_tmr.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_eint.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_misc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_usart.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_dma.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_adc.h)(0x658150DA)
+I (..\Drivers\APM32F10x_StdPeriphDriver\inc\apm32f10x_i2c.h)(0x658150DA)
+I (..\User\WLC_server\wlc_power_bridge\inc\wlc_power_bridge.h)(0x6A0C61D7)
+I (..\User\WLC_server\wlc_communications_physical\inc\wlc_physical.h)(0x6A0C62B2)
+F (..\Lib\Tomato_wlc.h)(0x6A18FB29)()
+F (..\Lib\Tomato_wlc.lib)(0x69B7667E)()
+F (..\Components\ringbuffer\ring_buffer.c)(0x69F32D80)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Drivers/APM32F10x_StdPeriphDriver/inc -I ../Drivers/CMSIS/Include -I ../Drivers/Device/Geehy/APM32F10x/Include -I ../Core/Inc -I ../FreeRTOS -I ../FreeRTOS/include -I ../FreeRTOS/portable/GCC/ARM_CM3 -I ../Bsp/inc -I ../User/WLC_driver/inc -I ../User/WLC_server/wlc_communications_physical/inc -I ../User/WLC_server/wlc_power_bridge/inc -I ../User/WLC_server/wlc_timer/inc -I ../User/WLC_app/inc -I ../User/common/type -I ../Lib -I ../Components/ringbuffer-ID:/Keil_v5/ARM/Packs/Geehy/APM32F1xx_DFP/1.1.0/Device/Device/Geehy/APM32F10x/Include-D__UVISION_VERSION="543" -DAPM32F10X_MD -DAPM32F10X_HD-o ./objects/ring_buffer.o -MMD)
+I (..\Components\ringbuffer\ring_buffer.h)(0x69F33106)
