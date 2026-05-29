@@ -8,3 +8,8 @@
 # Interview-only docs should stay local
 /HW_Doc/WLC_Interview_Cheat_Sheet.md
 /tutorial-site/interview-cheatsheet.html
+
+# Local assistant / analysis artifacts
+/.claude/
+/.codegraph/
+/.spec-workflow/
